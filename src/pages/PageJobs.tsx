@@ -1,7 +1,11 @@
 import _jobs from "../data/jobs.json";
 import { IJob } from "../interfaces";
 
-const jobs: IJob[] = _jobs;
+const jobs: IJob[] = _jobs.sort((a, b) => {
+  const dateA = new Date(a.publicationDate);
+  const dateB = new Date(b.publicationDate);
+  return dateB.getTime() - dateA.getTime();
+});
 
 export const PageJobs = () => {
   return (
