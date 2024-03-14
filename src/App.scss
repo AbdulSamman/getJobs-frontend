@@ -1,0 +1,22 @@
+body {
+  background-color: #333;
+  color: #aaa;
+  padding: 0 1rem;
+  font-family: sans-serif;
+  h1 {
+    color: gold;
+  }
+  nav {
+    background-color: #222;
+    padding: 0.5rem;
+
+    a {
+      text-decoration: none;
+      margin-right: 0.5rem;
+      color: #aaa;
+    }
+    a.active {
+      color: yellow;
+    }
+  }
+}
