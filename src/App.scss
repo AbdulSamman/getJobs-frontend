@@ -16,7 +16,52 @@ body {
       color: #aaa;
     }
     a.active {
-      color: yellow;
+      color: rgb(237, 237, 109);
+    }
+  }
+  .pageJobs {
+    .jobs {
+      .job {
+        background-color: #222;
+        padding: 1rem;
+        margin-bottom: 1rem;
+
+        div {
+          margin-bottom: 0.5rem;
+        }
+
+        .title {
+          a {
+            color: rgb(233, 180, 82);
+            font-size: 1.5rem;
+          }
+        }
+
+        .company {
+          color: rgb(218, 136, 73);
+        }
+
+        .description {
+          font-style: italic;
+          color: #999;
+          text-align: justify;
+        }
+
+        .skills {
+          .skill {
+            font-family: "Courier New", Courier, monospace;
+          }
+        }
+
+        .publicationDate {
+          color: greenyellow;
+          background-color: #111;
+          padding: 0.4rem;
+          font-family: "Courier New", Courier, monospace;
+          display: inline-block;
+          border-radius: 0.4rem;
+        }
+      }
     }
   }
 }
