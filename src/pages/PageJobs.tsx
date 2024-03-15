@@ -19,7 +19,7 @@ export const PageJobs = () => {
     })();
   });
   return (
-    <div className="page pageJobs">
+    <div className="pageJobs">
       <p>There are {jobs.length} jobs:</p>
 
       <div className="jobs">
