@@ -47,19 +47,18 @@ body {
           text-align: justify;
         }
 
-        .skills {
-          .skill {
-            font-family: "Courier New", Courier, monospace;
-          }
+        .skills,
+        .publicationDate {
+          font-family: "Courier New", Courier, monospace;
+          background-color: #111;
+          color: tomato;
+          width: fit-content;
+          padding: 0.5rem;
+          border-radius: 0.4rem;
         }
 
         .publicationDate {
           color: greenyellow;
-          background-color: #111;
-          padding: 0.4rem;
-          font-family: "Courier New", Courier, monospace;
-          display: inline-block;
-          border-radius: 0.4rem;
         }
       }
     }
